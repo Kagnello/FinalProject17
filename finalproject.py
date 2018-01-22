@@ -191,6 +191,8 @@ while True:
     else:
         character = input("That is not a character. Try again: ").title()
 
+# Start
+    #Prompts the user to start the game and then describes what the scenario is
 while True:
     if start=="Start":
         print(f"\n {character} knocks on the door. There is no answer. \n Matt pushes the door to find that it is open. The party steps inside the house. \n Before you is a dusty crystal chandelier, an entry table, and a grand staircase with hallways on either side.")
@@ -217,5 +219,4 @@ while direction1== "Up The Stairs":
     room3()
     room6()
     break
-
 
